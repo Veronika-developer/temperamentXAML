@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "carousel/1.0.0": {
         "dependencies": {
+          "EcoCore": "7.0.0.12656",
           "MvvmLightLibs": "5.4.1.1",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.5.3.2",
@@ -16,6 +17,22 @@
         },
         "runtime": {
           "carousel.dll": {}
+        }
+      },
+      "EcoCore/7.0.0.12656": {
+        "runtime": {
+          "lib/net40/Eco.Handles.dll": {
+            "assemblyVersion": "7.0.0.12656",
+            "fileVersion": "7.0.0.12656"
+          },
+          "lib/net40/Eco.Interfaces.dll": {
+            "assemblyVersion": "7.0.0.12656",
+            "fileVersion": "7.0.0.12656"
+          },
+          "lib/net40/Eco.LinqExtender.dll": {
+            "assemblyVersion": "7.0.0.12656",
+            "fileVersion": "7.0.0.12656"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -86,6 +103,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EcoCore/7.0.0.12656": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7cdiQ75HucmedA1aPxRc6e3ZTaB81OA5htiga4vaXe9b/fD7Rve1MLqCrX47GTrCdyn+LwtLJTiDwsYDwYGaxg==",
+      "path": "ecocore/7.0.0.12656",
+      "hashPath": "ecocore.7.0.0.12656.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
