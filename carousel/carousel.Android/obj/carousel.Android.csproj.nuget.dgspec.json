@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj": {}
+    "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj": {
+    "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj",
         "projectName": "carousel.Android",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj",
+        "projectPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj": {
-                "projectPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj"
+              "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj": {
+                "projectPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj": {
+    "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj",
         "projectName": "carousel",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj",
+        "projectPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -93,14 +93,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "EcoCore": {
-              "target": "Package",
-              "version": "[7.0.0.12656, )"
-            },
-            "MvvmLightLibs": {
-              "target": "Package",
-              "version": "[5.4.1.1, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

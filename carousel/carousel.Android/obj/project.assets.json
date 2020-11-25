@@ -2,44 +2,6 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
-      "CommonServiceLocator/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/CommonServiceLocator.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/CommonServiceLocator.dll": {}
-        }
-      },
-      "EcoCore/7.0.0.12656": {
-        "type": "package",
-        "compile": {
-          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
-          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
-          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
-        },
-        "runtime": {
-          "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll": {},
-          "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll": {},
-          "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll": {}
-        }
-      },
-      "MvvmLightLibs/5.4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "CommonServiceLocator": "2.0.2"
-        },
-        "compile": {
-          "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll": {},
-          "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll": {},
-          "lib/monoandroid1/GalaSoft.MvvmLight.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll": {},
-          "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll": {},
-          "lib/monoandroid1/GalaSoft.MvvmLight.dll": {}
-        }
-      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -826,8 +788,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "EcoCore": "7.0.0.12656",
-          "MvvmLightLibs": "5.4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141"
         },
@@ -841,166 +801,6 @@
     }
   },
   "libraries": {
-    "CommonServiceLocator/2.0.2": {
-      "sha512": "OeAz2cDGiQuaxpJ2pUm1xyZyklT2HgP5LHoumI0o/pcXdTweJMjKHu92JKa33pZRCrRI0DdPcE5MGHk6GCpDMQ==",
-      "type": "package",
-      "path": "commonservicelocator/2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "commonservicelocator.2.0.2.nupkg.sha512",
-        "commonservicelocator.nuspec",
-        "lib/net40/CommonServiceLocator.dll",
-        "lib/net45/CommonServiceLocator.dll",
-        "lib/net47/CommonServiceLocator.dll",
-        "lib/netcoreapp1.0/CommonServiceLocator.dll",
-        "lib/netstandard1.0/CommonServiceLocator.dll",
-        "lib/netstandard2.0/CommonServiceLocator.dll"
-      ]
-    },
-    "EcoCore/7.0.0.12656": {
-      "sha512": "7cdiQ75HucmedA1aPxRc6e3ZTaB81OA5htiga4vaXe9b/fD7Rve1MLqCrX47GTrCdyn+LwtLJTiDwsYDwYGaxg==",
-      "type": "package",
-      "path": "ecocore/7.0.0.12656",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "EcoCore.nuspec.org",
-        "ecocore.7.0.0.12656.nupkg.sha512",
-        "ecocore.nuspec",
-        "lib/Unity-Full-v35/Eco.Handles.MonoDevelop.dll",
-        "lib/Unity-Full-v35/Eco.Interfaces.MonoDevelop.dll",
-        "lib/Unity-Full-v35/Eco.LinqExtender.MonoDevelop.dll",
-        "lib/net40/Eco.Handles.dll",
-        "lib/net40/Eco.Interfaces.dll",
-        "lib/net40/Eco.LinqExtender.dll",
-        "lib/portable-windows8+net45/Eco.Handles.PortableCL.dll",
-        "lib/portable-windows8+net45/Eco.Interfaces.PortableCL.dll",
-        "lib/portable-windows8+net45/Eco.Linq.PortableCL.dll",
-        "lib/sl5/Eco.Handles.SL.dll",
-        "lib/sl5/Eco.Interfaces.SL.dll",
-        "lib/sl5/Eco.Linq.SL.dll",
-        "lib/sl5/Eco.Silverlight.SL.dll",
-        "lib/sl5/WECPOFLogicSL.dll"
-      ]
-    },
-    "MvvmLightLibs/5.4.1.1": {
-      "sha512": "xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
-      "type": "package",
-      "path": "mvvmlightlibs/5.4.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/SL5/GalaSoft.MvvmLight.Extras.dll",
-        "lib/SL5/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/SL5/GalaSoft.MvvmLight.Extras.xml",
-        "lib/SL5/GalaSoft.MvvmLight.dll",
-        "lib/SL5/GalaSoft.MvvmLight.pdb",
-        "lib/SL5/GalaSoft.MvvmLight.xml",
-        "lib/SL5/System.Windows.Interactivity.dll",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.XML",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.dll",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.XML",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.dll",
-        "lib/monoandroid1/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/monoandroid1/GalaSoft.MvvmLight.XML",
-        "lib/monoandroid1/GalaSoft.MvvmLight.dll",
-        "lib/monoandroid1/GalaSoft.MvvmLight.pdb",
-        "lib/net35/GalaSoft.MvvmLight.Extras.dll",
-        "lib/net35/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/net35/GalaSoft.MvvmLight.Extras.xml",
-        "lib/net35/GalaSoft.MvvmLight.dll",
-        "lib/net35/GalaSoft.MvvmLight.pdb",
-        "lib/net35/GalaSoft.MvvmLight.xml",
-        "lib/net35/System.Windows.Interactivity.dll",
-        "lib/net35/System.Windows.Interactivity.xml",
-        "lib/net40/GalaSoft.MvvmLight.Extras.dll",
-        "lib/net40/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/net40/GalaSoft.MvvmLight.Extras.xml",
-        "lib/net40/GalaSoft.MvvmLight.dll",
-        "lib/net40/GalaSoft.MvvmLight.pdb",
-        "lib/net40/GalaSoft.MvvmLight.xml",
-        "lib/net40/System.Windows.Interactivity.dll",
-        "lib/net40/System.Windows.Interactivity.xml",
-        "lib/net45/GalaSoft.MvvmLight.Extras.dll",
-        "lib/net45/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/net45/GalaSoft.MvvmLight.Extras.xml",
-        "lib/net45/GalaSoft.MvvmLight.Platform.dll",
-        "lib/net45/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/net45/GalaSoft.MvvmLight.Platform.xml",
-        "lib/net45/GalaSoft.MvvmLight.dll",
-        "lib/net45/GalaSoft.MvvmLight.pdb",
-        "lib/net45/GalaSoft.MvvmLight.xml",
-        "lib/net45/System.Windows.Interactivity.dll",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.XML",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.dll",
-        "lib/portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Extras.xml",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.pri",
-        "lib/uap10.0/GalaSoft.MvvmLight.Platform.xml",
-        "lib/uap10.0/GalaSoft.MvvmLight.dll",
-        "lib/uap10.0/GalaSoft.MvvmLight.pdb",
-        "lib/uap10.0/GalaSoft.MvvmLight.xml",
-        "lib/windows81/GalaSoft.MvvmLight.Extras.dll",
-        "lib/windows81/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/windows81/GalaSoft.MvvmLight.Extras.xml",
-        "lib/windows81/GalaSoft.MvvmLight.Platform.dll",
-        "lib/windows81/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/windows81/GalaSoft.MvvmLight.Platform.pri",
-        "lib/windows81/GalaSoft.MvvmLight.Platform.xml",
-        "lib/windows81/GalaSoft.MvvmLight.dll",
-        "lib/windows81/GalaSoft.MvvmLight.pdb",
-        "lib/windows81/GalaSoft.MvvmLight.xml",
-        "lib/wp8/GalaSoft.MvvmLight.Extras.dll",
-        "lib/wp8/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/wp8/GalaSoft.MvvmLight.Extras.xml",
-        "lib/wp8/GalaSoft.MvvmLight.Platform.dll",
-        "lib/wp8/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/wp8/GalaSoft.MvvmLight.Platform.xml",
-        "lib/wp8/GalaSoft.MvvmLight.dll",
-        "lib/wp8/GalaSoft.MvvmLight.pdb",
-        "lib/wp8/GalaSoft.MvvmLight.xml",
-        "lib/wp8/System.Windows.Interactivity.dll",
-        "lib/wp81/GalaSoft.MvvmLight.Extras.dll",
-        "lib/wp81/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/wp81/GalaSoft.MvvmLight.Extras.xml",
-        "lib/wp81/GalaSoft.MvvmLight.Platform.dll",
-        "lib/wp81/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/wp81/GalaSoft.MvvmLight.Platform.xml",
-        "lib/wp81/GalaSoft.MvvmLight.dll",
-        "lib/wp81/GalaSoft.MvvmLight.pdb",
-        "lib/wp81/GalaSoft.MvvmLight.xml",
-        "lib/wp81/System.Windows.Interactivity.dll",
-        "lib/wpa81/GalaSoft.MvvmLight.Extras.XML",
-        "lib/wpa81/GalaSoft.MvvmLight.Extras.dll",
-        "lib/wpa81/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/wpa81/GalaSoft.MvvmLight.Platform.XML",
-        "lib/wpa81/GalaSoft.MvvmLight.Platform.dll",
-        "lib/wpa81/GalaSoft.MvvmLight.Platform.pdb",
-        "lib/wpa81/GalaSoft.MvvmLight.Platform.pri",
-        "lib/wpa81/GalaSoft.MvvmLight.XML",
-        "lib/wpa81/GalaSoft.MvvmLight.dll",
-        "lib/wpa81/GalaSoft.MvvmLight.pdb",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.XML",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.pdb",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.XML",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.XML",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.dll",
-        "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
-        "mvvmlightlibs.5.4.1.1.nupkg.sha512",
-        "mvvmlightlibs.nuspec"
-      ]
-    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
       "sha512": "ss+hnEoFeyxLgHk3TrCBqTMkK6ZJqhq382AONzdVGg7cyVibvBMWPX2Xp5byB8tvRJOMRIWZnqyqgpYQIagkZA==",
       "type": "package",
@@ -2136,11 +1936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj",
       "projectName": "carousel.Android",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\carousel.Android.csproj",
+      "projectPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\carousel.Android.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel.Android\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2161,8 +1961,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj": {
-              "projectPath": "C:\\Users\\opilane\\source\\repos\\Jefimova\\carousel\\carousel\\carousel\\carousel.csproj"
+            "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj": {
+              "projectPath": "C:\\Users\\opilane\\Source\\Repos\\temperamentXAML\\carousel\\carousel\\carousel.csproj"
             }
           }
         }

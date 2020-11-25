@@ -12,3 +12,17 @@ C:\Users\opilane\source\repos\Jefimova\carousel\carousel\carousel\obj\Debug\nets
 C:\Users\opilane\source\repos\Jefimova\carousel\carousel\carousel\obj\Debug\netstandard2.0\ref\carousel.dll
 C:\Users\opilane\source\repos\Jefimova\carousel\carousel\carousel\obj\Debug\netstandard2.0\carousel.pdb
 C:\Users\opilane\source\repos\Jefimova\carousel\carousel\carousel\obj\Debug\netstandard2.0\carousel.csprojAssemblyReference.cache
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\bin\Debug\netstandard2.0\carousel.deps.json
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\bin\Debug\netstandard2.0\carousel.dll
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\bin\Debug\netstandard2.0\ref\carousel.dll
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\bin\Debug\netstandard2.0\carousel.pdb
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.csprojAssemblyReference.cache
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.AssemblyInfoInputs.cache
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.AssemblyInfo.cs
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.dll
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\ref\carousel.dll
+C:\Users\opilane\Source\Repos\temperamentXAML\carousel\carousel\obj\Debug\netstandard2.0\carousel.pdb
